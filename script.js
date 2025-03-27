@@ -40,7 +40,7 @@ function checkWinner() {
             gameBoard[combination[0]] === gameBoard[combination[1]] &&
             gameBoard[combination[0]] === gameBoard[combination[2]]
         ) {
-            alert(`Player ${gameBoard[combination[0]]}`);
+            alert(`Player ${gameBoard[combination[0]]} wins!!`);
             resetGame();
             return;
         }
